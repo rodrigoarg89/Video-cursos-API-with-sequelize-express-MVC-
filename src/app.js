@@ -3,7 +3,7 @@ const initModels = require("./models/initModels");
 const db = require("./utils/database");
 const userRoutes = require("./Routes/users.routes");
 const morgan = require("morgan");
-const handleError = require("./middlewares/error");
+const handleError = require("./middlewares/error.middlewares");
 
 require("dotenv").config();
 
